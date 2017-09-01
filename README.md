@@ -5,8 +5,8 @@
 JUST FUCKING WRITE IT!
 - create a prologue (optional)
 - create a cover image (mandatory)
--- recommended size: `1563 x 2500 pixels`
--- recommended format: `jpeg` or `tiff`
+  - recommended size: `1563 x 2500 pixels`
+  - recommended format: `jpeg` or `tiff`
 
 ### Kindlegen
 download kindlegen:
@@ -29,15 +29,15 @@ _(I tottally recommend you to use **Calibre**...)_
 ## creating the book
 
 - save HTML in `cap_.html`
--- one HTML per chapter
--- you can add as much chapters as you want - 1 per html... =)
--- images are added in `images` folder and referenced internally as `<img src="images/____.png"...` or whatever
+  - one HTML per chapter
+  - you can add as much chapters as you want - 1 per html... =)
+  - images are added in `images` folder and referenced internally as `<img src="images/____.png"...` or whatever
 - change book title in files: `content.opf`, `head.html`, `toc.html`, `toc.ncx` (toc.ncx in 2 places)
 - create prologue (in `prologo.html`)
 - add `agradecimentos.html`
 - save cover image in root folder with name `cover.jpg`
 - generate your UUID
--- change the UUID in `content.opf` and `toc.ncx`
+  - change the UUID in `content.opf` and `toc.ncx`
 - run the command line to build the book
 
 
