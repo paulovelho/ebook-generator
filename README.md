@@ -45,9 +45,9 @@ _(I tottally recommend you to use **Calibre**...)_
 ```
 ./kindlegen ebook/content.opf -verbose -o myEbook.mobi
 ```
-`-o`: name of generated file
-`-verbose`: print information
-`-locale pt`: messages in portuguese, por favor
+- `-o`: name of generated file
+- `-verbose`: print information
+- `-locale pt`: messages in portuguese, por favor
 
 ### generate epub
 using Calibre, preferably
