@@ -1,0 +1,10 @@
+.quote {
+  font-style: italic;
+  margin: 20px;
+}
+.author {
+  margin-top: 0;
+  font-style: italic;
+  font-variant: small-caps;
+  text-align: right;
+}

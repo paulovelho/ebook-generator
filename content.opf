@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <!--Required Metadata-->
+        <dc:title>Title</dc:title>
+        <dc:language>pt</dc:language>
+        <dc:identifier id="BookId" opf:scheme="uuid">urn:uuid:xx000000-0000-0000-0000-000000000000</dc:identifier> <!--Use the Same for the toc.ncx file -->
+        <dc:creator opf:role="aut">Paulo Henrique Martins</dc:creator>
+        <dc:publisher>Paulo Velho</dc:publisher>
+        <dc:date></dc:date>
+        <meta name="cover" content="cover_mauer" /> <!--Required for KindleGen-->
+        <!-- Optional Metadata -->
+        <dc:subject>long-read, humor</dc:subject>
+    </metadata>
+    <manifest>
+        <item href="cover.jpg" id="cover_mauer" media-type="image/jpeg" />
+        <item href="head.html" id="head" media-type="application/xhtml+xml" />
+        <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+        <item href="cover.html" id="cover" media-type="application/xhtml+xml" />
+        <item href="toc.html" id="toc" media-type="application/xhtml+xml" />
+        <item href="prologo.html" id="prologo" media-type="application/xhtml+xml" />
+        <item href="cap1.html" id="cap1" media-type="application/xhtml+xml" />
+        <item href="fontes.html" id="fontes" media-type="application/xhtml+xml" />
+        <item href="agradecimentos.html" id="agradecimentos" media-type="application/xhtml+xml" />
+        <item href="footer.html" id="footer" media-type="application/xhtml+xml" />
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="cover" />
+        <itemref idref="head" />
+        <itemref idref="toc" />
+        <itemref idref="prologo" />
+        <itemref idref="cap1" />
+        <itemref idref="fontes" />
+        <itemref idref="agradecimentos" />
+        <itemref idref="footer" />
+    </spine>
+</package>
