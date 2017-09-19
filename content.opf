@@ -8,12 +8,12 @@
         <dc:creator opf:role="aut">Paulo Henrique Martins</dc:creator>
         <dc:publisher>Paulo Velho</dc:publisher>
         <dc:date></dc:date>
-        <meta name="cover" content="cover_mauer" /> <!--Required for KindleGen-->
+        <meta name="cover" content="cover_jpeg" /> <!--Required for KindleGen-->
         <!-- Optional Metadata -->
         <dc:subject>long-read, humor</dc:subject>
     </metadata>
     <manifest>
-        <item href="cover.jpg" id="cover_mauer" media-type="image/jpeg" />
+        <item href="cover.jpg" id="cover_jpeg" media-type="image/jpeg" />
         <item href="head.html" id="head" media-type="application/xhtml+xml" />
         <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
         <item href="cover.html" id="cover" media-type="application/xhtml+xml" />
